@@ -1,0 +1,43 @@
+p{
+    color:#CB96BA;
+    font-family:fontinha3;
+}
+
+
+@font-face {
+    font-family:fontinha;
+    src: url(Aston\ Script.ttf);
+}
+
+@font-face {
+    font-family:fontinha2;
+    src: url(Wizards\'\ Magic.ttf);
+}
+
+@font-face {
+    font-family:fontinha3;
+    src: url(CursiveSans-Book.ttf);
+}
+
+.heybloggers{
+    font-family: fontinha;
+    font-size:30px;
+}
+ul{
+    color:#CB96BA;
+    font-family:fontinha3;
+}
+
+.info{
+        color:#CB96BA;
+    font-family:fontinha3;
+}
+
+.videoslegais{
+    position: absolute;
+    left:170px;
+    
+}
+.aqui{
+ justify-content: center;
+}

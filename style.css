@@ -1,0 +1,246 @@
+.body1{
+    
+    display:flex;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/1200x/92/25/a8/9225a84c80b31a081f0cacd4671047a2.jpg);
+    background-repeat:no-repeat;
+    background-size: 1345px 605px;
+    background-attachment: fixed;
+    scrollbar-color:white;
+    scrollbar-track-color: #fff8f8;
+    scrollbar-shadow-color: #fff8f8;
+    scrollbar-arrow-color: white;
+}
+
+
+
+
+@keyframes roda {
+      from{
+         transform: rotate(0deg);
+      }
+      to {
+         transform: rotate(360deg);
+      }
+        /*no keyframe é definido o padrão da animação, neste caso, o objeto sairá da posição 0 (ângulo de rotação) e irá para a posição 360, completando uma volta completa*/
+   
+}
+     
+.aventurine img:hover{
+   animation:roda 2s infinite linear;
+}
+
+
+@font-face {
+    font-family:fontinha;
+    src: url(Aston\ Script.ttf);
+}
+
+@font-face {
+    font-family:fontinha2;
+    src: url(Wizards\'\ Magic.ttf);
+}
+
+@font-face {
+    font-family:fontinha3;
+    src: url(CursiveSans-Book.ttf);
+}
+
+.titulo{
+    align-items: center;
+    font-family:fontinha;
+    font-weight:bolder;
+    display: flex;
+flex-wrap: wrap;
+}
+
+.subtitulo{
+    font-size:10px;
+    font-family:fontinha;
+    bottom:0px;
+}
+h2{position:relative;
+    top:1000px;
+}
+.titulotudo{
+    
+    justify-content: center;
+    
+}
+
+h1{
+    position:relative;
+    left:620px;
+    font-size:50px;
+    color:#fabce6;
+    width:500px;
+    text-shadow: -1px -1px 0 #b152a1, 1px -1px 0 #d467ab, -1px 1px 0 #ffffff, 1px 1px 0 #fff8f8;
+}
+
+h1:hover{
+    transform:rotacionar 6.5s infinite;
+    
+}
+
+@keyframes rotacionar {
+    from {transform: rotate(0deg);
+}
+    to{transform:rotate(360deg);}
+}
+
+p{
+    color:#CB96BA;
+    font-family:fontinha3;
+}
+
+.butao{
+    position:relative;
+ 
+    top:34px;
+    height:140px;
+    width:170px;
+    left:-430px;
+    border-radius:5%;
+}
+
+.aventurine img{
+    position:absolute;
+    right:180px;
+    top:10px;
+    height:430px;
+}
+.aventurine{
+    position:absolute;
+    right:940px;
+    top:150px;
+    height:20px;
+    width:20px;
+}
+
+.butao{
+     transition: transform 0.2s linear; /* Animate transform over 0.3s */
+  transform-origin: center; 
+}
+
+.butao:hover{
+    transform: scale(1.07);
+}
+
+.butao2{
+     transition: transform 0.2s linear; /* Animate transform over 0.3s */
+  transform-origin: center; 
+}
+
+.butao2:hover{
+    transform: scale(1.07);
+}
+
+.butao3{
+     transition: transform 0.2s linear; /* Animate transform over 0.3s */
+  transform-origin: center; 
+}
+
+.butao3:hover{
+    transform: scale(1.07);
+}
+
+.butao2{
+    position:relative;
+    left:-405px;
+    height:140px;
+    top:34px;
+    width:170px;
+    border-radius:5%;
+}
+.butao3{
+    position:relative;
+    left:-575px;
+    height:140px;
+    width:170px;
+    top:195px;
+    border-radius:5%;
+}
+
+.freime{
+    position: relative;
+    top:20px;
+    left:220px;
+}
+iframe{
+    position:relative;
+    top:175px;
+    right:400px;
+  
+    background-image:url(fundo2.jpg);
+      height:300px;
+    width:800px;
+    left:-35px;
+
+}
+
+::-webkit-scrollbar {
+    scrollbar-color: white;
+      scrollbar-color:white;
+    scrollbar-track-color: #fff8f8;
+    scrollbar-shadow-color: #fff8f8;
+    scrollbar-arrow-color: white;
+}
+
+.moldura {
+    bottom:-379px;
+    position:fixed;
+    transform:rotate(-90deg);
+    height:1360px;
+    width:620px;
+    pointer-events: none;
+}
+
+ul {
+    display:flex;
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    left:-380px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  position:relative;
+  overflow: hidden;
+  background-color: #9BBCAC;
+  
+}
+
+
+ul li {
+  float:left;
+}
+
+
+ul li a {
+  display:inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   max-width: 1000px;
+  font-family: fontinha;
+
+}
+
+ul li a:hover {
+  background-color: #D0DDC4;
+}
+
+.negocio {
+    position:relative;
+    left:-300px;
+    top:129px;
+
+}
+
